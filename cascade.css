@@ -1,0 +1,247 @@
+/* 
+MAIN PAGE 
+*/
+footer{
+    background-color: rgba(240, 248, 255, 0.744);
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/031a4b62-92a0-47ba-b468-6728dd5b8fcc.jpg");
+}
+.mainfoto{
+    
+    background-size: cover;
+    width: 512px;
+    height: 1028px;
+}
+.slogan{
+    padding: 30px 100px;
+    margin: 0 20%;
+    border-radius: 100px;
+    background-color: rgba(240, 248, 255, 0.683);
+    margin-top: 20%;
+    align-items: center;
+    font-size: 24px;
+    text-align: center  ;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+GALLERY PAGE 
+*/
+.yt1{
+    margin-top: 30px;
+}
+.fb1{
+    margin-top: 30px;
+}
+.ig1{
+    margin-top: 30px;
+}
+.li1{
+    margin-top: 30px;
+}
+.mainpage-gallery{
+    background-color: lightblue;
+    
+}
+.socrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about1 p{
+    background-color: rgba(240, 248, 255, 0.735);
+    padding: 10px;
+    border-radius: 10px;
+}
+/* 
+CONTACT PAGE
+*/
+.contacts1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ytpic{
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/yt.png);
+    width: 256px;
+    height: 256px;
+    background-size: cover; 
+}
+
+.mainpage-contact{
+    background-color: lightblue;
+    
+}
+
+/* 
+ABOUT PAGE
+*/
+
+.mainpage-about{
+    background-color: lightblue;
+    
+}
+
+
+.about-seciton{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+
+.about-h1{
+    background-color: rgba(31, 94, 149, 0.797);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.aboutpic1{
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/8f71e425-0b15-438f-9900-dd3d43cc80f4.jpg);
+    width: 512px;
+    height: 512px;
+    background-size: cover;
+}
+.aboutpic2{
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/1582c297-2492-4c6f-a428-5941f0957ff5.jpg);
+    width: 512px;
+    height: 512px;
+    background-size: cover;
+}
+.aboutpic3{
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/c990ad77-a487-4ff7-a26c-07f40ba3e174.jpg);
+    width: 512px;
+    height: 512px;
+    background-size: cover;
+}
+.aboutpic4{
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/2bbb4337-f926-444c-9519-c4c4dddbbb70.jpg);
+    width: 512px;
+    height: 512px;
+    background-size: cover;
+}
+.aboutpic5{
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/f3285394-2c3a-4deb-8746-aa9d201c6668.jpg);
+    width: 512px;
+    height: 512px;
+    background-size: cover;
+}
+.aboutpic6{
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/logo.jpeg);
+    width: 512px;
+    height: 512px;
+    background-size: cover;
+}
+.about1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+.aboutp1{
+    padding: 10px;
+    width: 1000px;
+    font-size: 28px;
+}
+a{
+    text-decoration: none;
+}
+/* 
+FOOTER PAGE
+*/
+.nav-ad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-links{
+    padding-bottom: 10px;
+}
+.bottom-pages{
+    padding-top: 10px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* navigation */
+.navdiv{
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.mainpage-body{
+    background-color: lightblue;
+    
+}
+
+.main-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.logo-text{
+    font-size: 48px;
+}
+
+.navigation-pages{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+}
+
+.logo-div{
+    background-image: url("assets/logo.jpeg");
+    background-size: cover;
+    width: 128px;
+    height: 128px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 100px;
+    
+}
