@@ -1,6 +1,13 @@
 /* 
 MAIN PAGE 
 */
+
+@media(max-width: 516px){
+    html{
+        width: 200vw;
+    }
+} 
+
 footer{
     background-color: rgba(240, 248, 255, 0.744);
 }
@@ -63,7 +70,7 @@ GALLERY PAGE
     border-radius: 10px;
 }
 /* 
-CONTACT PAGE
+CONTACT PAGE    
 */
 .contacts1{
     display: flex;
@@ -155,6 +162,47 @@ ABOUT PAGE
     height: 512px;
     background-size: cover;
 }
+/* okul fotolar */
+.aboutpic11{
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/marmara.jpg);
+    width: 512px;
+    height: 512px;
+    background-size: cover;
+}
+.aboutpic22{
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/ted.jpg);
+    width: 512px;
+    height: 512px;
+    background-size: cover;
+}
+.aboutpic33{
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/bahcesehir.jpg);
+    width: 512px;
+    height: 512px;
+    background-size: cover;
+}
+.aboutpic44{
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/itu.jpeg);
+    width: 512px;
+    height: 512px;
+    background-size: cover;
+}
+.aboutpic55{
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/tecnico.jpg);
+    width: 512px;
+    height: 512px;
+    background-size: cover;
+}
 .aboutpic6{
     display: flex;
     flex-direction: row;
@@ -169,11 +217,11 @@ ABOUT PAGE
     justify-content: space-between;
     padding: 10px;
     margin: 10px;
+    align-items: center;
 }
 .aboutp1{
-    padding: 10px;
-    width: 1000px;
-    font-size: 28px;
+    width: 600px;
+    font-size: 40px;
 }
 a{
     text-decoration: none;
